@@ -1,0 +1,63 @@
+h2 {
+    color:brown;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+th {
+    background-color:gainsboro;
+}
+
+th, td {
+    
+    
+    padding: 5px;
+    border: 1px solid rgb(196, 191, 191);
+    text-align: left;
+}
+
+#addrow {
+    margin-top: 1rem;
+    background-color: rgb(239, 237, 237);
+}
+
+#weighted, #mean {
+    border: 0;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 8px;
+    float: right;
+    margin-left: 1rem;
+    background-color: brown;
+    color: white;
+}
+
+
+#innerBorder {
+    background-color:rgb(226, 234, 238);
+    padding: 1rem;
+    padding-bottom: 4rem;
+    max-width: 900px;
+    
+}
+
+#outerBorder {
+    border-top: 1rem solid black;
+    border-bottom: 2rem solid black;
+    background-color: white;
+    padding: 2rem;
+    max-width: 1300px;
+    margin:auto;
+    
+}
+
+body {
+    background-color: brown;
+    margin-top: 0;
+}
